@@ -1,13 +1,13 @@
 module.exports = {
-  arrowParens: 'always',
-  bracketSameLine: true,
-  bracketSpacing: true,
-  singleQuote: true,
-  trailingComma: 'all',
-  endOfLine: 'auto',
-  tabWidth: 4,
-  useTabs: false,
-  printWidth: 100
+    arrowParens: 'always',
+    bracketSameLine: true,
+    bracketSpacing: true,
+    singleQuote: true,
+    trailingComma: 'all',
+    endOfLine: 'auto',
+    tabWidth: 4,
+    useTabs: false,
+    printWidth: 100,
 };
 /*
 printWidth: el largo de linea que el formateador va a dejar como valido ( y formateara a ese valor )
