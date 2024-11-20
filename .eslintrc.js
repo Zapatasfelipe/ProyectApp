@@ -2,6 +2,7 @@ module.exports = {
     root: true,
     extends: '@react-native',
     rules: {
+        "react/react-in-jsx-scope": "off",
         indent: ['warn', 4, { SwitchCase: 1 }],
         'max-len': ['warn', { code: 150, ignoreComments: true, ignoreUrls: true }],
         eqeqeq: ['error', 'always'],
@@ -9,7 +10,7 @@ module.exports = {
         'no-unused-vars': 'warn',
         'max-depth': ['error', 4],
         'max-lines': ['error', { max: 500, skipBlankLines: true, skipComments: true }],
-        'no-inline-comments': 'error',
+        /* 'no-inline-comments': 'error', */
         'no-nested-ternary': 'warn',
         'no-undefined': 'warn',
         'no-var': 'warn',
